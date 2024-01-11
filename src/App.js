@@ -1,23 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import MasterLayout from './template/layout/MasterLayout';
+import { Route, Routes } from 'react-router-dom';
+import Home from './template/page/home/Home';
+import Login from './template/page/login/Login';
+import New from './template/page/news/New';
+import Register from './template/page/register/Register';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path='/' element={<MasterLayout Page={<Home />} />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/new' element={<New />} />
+        <Route path='/register' element={<Register />} />
+      </Routes>
+
     </div>
   );
 }

@@ -1,0 +1,78 @@
+.login_page {
+    width: 100%;
+    display: flex;
+    background-color: #eff3ff;
+}
+
+.bg_login {
+    width: 50%;
+    height: 770px;
+    background-image: url(../../../images/bg-login.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.form_login {
+    width: 50%;
+}
+
+.form {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.input_form input {
+    width: 100%;
+    padding: 10px;
+}
+
+.input_form {
+    padding: 15px 0px;
+}
+
+.submit_form {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+    background-color: #004588;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.text_form {
+    width: 100%;
+    text-align: right;
+}
+
+.text_mxh {
+    display: flex;
+}
+
+.hr_login {
+    width: 40%;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.google_login {
+    border: 2px solid rgba(222, 73, 54, .5);
+    padding: 10px;
+    margin: 15px 0px;
+}
+
+.google_login a i {
+    font-size: 30px;
+    background: -webkit-linear-gradient(#ca4f4f, #37ab2f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.google_login a span {
+    color: #111;
+    font-weight: bold;
+}
+
+.havent {
+    display: flex;
+}
