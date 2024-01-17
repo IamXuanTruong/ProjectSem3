@@ -6,6 +6,8 @@ import Home from './template/page/home/Home';
 import Login from './template/page/login/Login';
 import New from './template/page/news/New';
 import Register from './template/page/register/Register';
+import Office from './template/page/office/Office';
+import Order from './template/page/order/Order';
 
 
 
@@ -14,8 +16,9 @@ function App() {
     <div className="App">
       <Routes>
         <Route path='/' element={<MasterLayout Page={<Home />} />} />
+        <Route path='/order' element={<MasterLayout Page={<Order />} />} />
+        <Route path='/office' element={<MasterLayout Page={<Office />} />} />
         <Route path='/login' element={<Login />} />
-        <Route path='/new' element={<New />} />
         <Route path='/register' element={<Register />} />
       </Routes>
 

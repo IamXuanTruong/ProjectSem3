@@ -95,7 +95,7 @@ function Home() {
                         </div>
                         <div className="form_connect">
                             <div className="connect_item">
-                                <a href=""> <i class="fa-solid fa-map-pin"></i>
+                                <a href="/office"> <i class="fa-solid fa-map-pin"></i>
                                     <p>Find the post office</p>
                                 </a>
                             </div>
@@ -106,7 +106,7 @@ function Home() {
                                 </a>
                             </div>
                             <div className="connect_item">
-                                <a href="">
+                                <a href="/order">
                                     <i class="fa-solid fa-plus"></i>
                                     <p>Create orders</p>
                                 </a>
